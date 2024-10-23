@@ -68,11 +68,6 @@ export const profileConfig: ProfileConfig = {
       icon: 'fa6-brands:github',
       url: 'https://github.com/saicaca/fuwari',
     },
-    {
-      name: 'Google',
-      icon: 'fa6-brands:google',
-      url: 'https://google.com',
-    }
   ],
 }
 

@@ -3,9 +3,19 @@ import { onMount } from 'svelte'
 import { url } from '@utils/url-utils.ts'
 import { i18n } from '@i18n/translation'
 import I18nKey from '@i18n/i18nKey'
+// // 声明 pagefind 是全局存在的变量
+// declare const pagefind: any;
 let keywordDesktop = ''
 let keywordMobile = ''
-let result = []
+type SearchResult = {
+  url: string;
+  meta: {
+    title: string;
+  };
+  excerpt: string;
+};
+
+let result: SearchResult[] = [];
 const fakeResult = [
   {
     url: url('/'),

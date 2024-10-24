@@ -15,7 +15,7 @@ export const siteConfig: SiteConfig = {
     fixed: false,     // Hide the theme color picker for visitors
   },
   banner: {
-    enable: false,
+    enable: true,
     src: 'assets/images/demo-banner.png',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
@@ -47,9 +47,9 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  avatar: 'assets/images/demo-master.jpg',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  name: 'DreamKiki',
+  bio: 'Even if a hundred years pass without fate, liberation from worldly dust reveals pure innocence in dreams',
   links: [
     {
       name: 'Twitter',
@@ -68,6 +68,21 @@ export const profileConfig: ProfileConfig = {
       icon: 'fa6-brands:github',
       url: 'https://github.com/saicaca/fuwari',
     },
+    {
+      name: 'Google',
+      icon: 'fa6-brands:google',
+      url: 'https://google.com',
+    },
+    {
+      name: 'youtube',
+      icon: 'fa6-brands:youtube',
+      url: 'https://www.youtube.com',
+    },
+    {
+      name: 'bilibili',
+      icon: 'fa6-brands:bilibili',
+      url: 'https:www.bilibili.com',
+    }
   ],
 }
 
